@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset ="UTF-8">
+  <title>Survey Form</title>
+  <link rel="stylesheet" href="style.css">
+  </head>
+<body>
+  <div class="container">
+ <header>
+   <h1 id="title">Coding Biz Survey Form</h1>
+   <p id="description"><em>Thank you for taking the time to help us improve the platform</em></p>
+ </header>
+ <form id="survey-form">
+  <div class="form-name">
+    <label id="name-label" for="name" >Name</label>
+    <input type="text" name="name" id="name" class="form-control" placeholder="Enter your name" required>
+  </div>
+  <div class="form-email">
+     <label id="email-label" for="email" >Email</label>
+    <input type="email" name="email" id="email" class="form-control" placeholder="Enter your Email"  required>
+  </div>
+  <div class="form-age">
+    <label id="age-label" for="age" >Age (optional)</label>
+    <input type="text" name="age" id="age" class="form-control" placeholder="Enter your age" required>
+  <div class="form-number">
+    <label id="number-label" for="number">Number</label>
+    <input  type="number" id="number"  placeholder="ex) (555)555-5555" min="10" max="11"></input>
+  </div>
+  </div>
+  <div class="form-selectGroup">
+    <p>Which option best describes your current role?</p>
+    <select id="dropdown" name="role" class="form-control" required>
+      <option disabled selected value>select current role</option>
+      <option value="student">student</option>
+      <option value="ft-earn">full-time job</option>
+      <option value="ft-learn">full-time learner</option>
+      <option value="no-comment">prefer not to say</option>
+      <option value="other">other</option>
+    </select>
+  </div>
+  <div class="form-recommend">
+   <label> <p>Would you recommend our bootcamp to a friend?
+
+</p> </label>
+<input name="user-reccomend" type="radio" value="definitely">Definitely</input>
+<input name="user-reccomend" type="radio" value="maybe">maybe</input>
+<input name="user-reccomend" type="radio" value="not sure">not sure</input>
+  </div>
+  <div class="form-features">
+    <p>What is your favorite feature of our site?</p>
+    <select id="favorite" name="favorite" required>
+      <option disabled selected value>select one</option>
+      <option value="challenges">Challeneges</option>
+      <option value="projects">Projects</option>
+      <option value="community">Community</option>
+      <option value="openSource">Open Source</option>
+    </select>
+  </div>
+  <div class="form-improvements">
+    <p>What would you like to see improved? (Check all that apply)</p>
+    <label><input name="prefer" value="front-end projects" type="checkbox" class="value-checkbox"> front-end projects</label>
+    <label><input name="prefer" value="backend projects" type="checkbox" class="value-checkbox">Back-end Projects</label>
+     <label><input name="prefer" value="data-visualization" type="checkbox" class="value-checkbox">Data Visualization</label>
+    <label><input name="prefer" value="Challeneges" type="checkbox" class="value-checkbox">Challeneges <label><br>
+     <label><input name="prefer" value="Open-source-community" type="checkbox" class="value-checkbox">Open Source Community</label><br>
+     <label><input name="prefer" value="gitterHelpRooms" type="checkbox" class="value-checkbox">Gitter help rooms</label><br>
+      <label><input name="prefer" value="Videos" type="checkbox" class="value-checkbox">Videos</label><br>
+     <label><input name="prefer" value="City-meetups" type="checkbox" class="value-checkbox">City Meetups</label>  <br>
+       <label><input name="prefer" value="wiki" type="checkbox" class="value-checkbox">Wiki</label><br>
+       <label><input name="prefer" value="forum" type="checkbox" class="value-checkbox">Forum</label><br>
+       <label><input name="prefer" value="additional-resources" type="checkbox" class="value-checkbox">Additional courses</label>
+  </div>
+  <div class="form-comments">
+    <p>Any comments or suggestions?</p>
+    <textarea id="comments" name="comment" placeholder="enter you comment here..."></textarea>
+  </div>
+  <div class="form-submit" id="submit-button">
+    <button type="submit" id="submit" class="submit">SUBMIT</button>
+  </div>
+   </form> 
+</div>
+</body>

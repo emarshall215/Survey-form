@@ -1,0 +1,91 @@
+body {
+    background-image: linear-gradient( 115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7) ), url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+       background-size: cover;
+       background-repeat: no-repeat;
+     font-family: Poppins, sans-serif;
+       font-size: 1rem;
+       color: #fff;
+   }
+   
+   .container {
+     display:flex;
+     flex-direction: column;
+     align-items: center;
+     padding: 50px;
+     
+   }
+   
+   form {
+     border: solid black 1px;
+     padding: 40px;
+     background-color: rgba(27, 27, 50, 0.8);
+     border-radius: 1.5%
+   }
+   
+   textarea {
+     width: 100%;
+     height: 10vh;
+     margin-bottom: 25px;
+   }
+   
+   .submit {
+     background-color: #37af65;
+     width: 100%;
+     border: 0;
+     height: 4vh;
+     color: f3f3f3;
+   }
+   
+   #name {
+     width: 100%;
+     height: 4vh;
+     border-radius: 2px;
+     border: 0;
+     margin-bottom: 20px;
+     
+   }
+   
+   #email {
+     width: 100%;
+     height: 4vh;
+     border-radius: 2px;
+     border: 0;
+     margin-bottom: 20px;
+   }
+   
+   #age {
+    width: 100%;
+     height: 4vh;
+     border-radius: 2px;
+     border: 0;
+     margin-bottom: 20px; 
+   }
+   
+   #number {
+     width: 100%;
+     height: 4vh;
+     border-radius: 2px;
+     border: 0;
+     margin-bottom: 20px; 
+   }
+   
+   #dropdown {
+     width: 100%;
+     height: 4vh;
+     border-radius: 2px;
+     margin-bottom: 18px
+   }
+   
+   #favorite{
+     width: 100%;
+     height: 4vh;
+     border-radius: 2px;
+     margin-bottom: 18px
+   }
+   
+   .form-improvements {
+     display: flex;;
+     flex-direction: column;
+     flex-wrap: wrap;
+     gap: 5  
+   }
